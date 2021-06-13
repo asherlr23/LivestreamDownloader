@@ -11,7 +11,7 @@ print("|               WARNING: LINUX ONLY |")
 print("|                  Starting in 2s...|")
 print("-------------------------------------\n")
 if os.name == 'nt':
-    print("| Windows system detected. Exiting...")
+    print("Error | Windows system detected. Exiting...")
     exit()
 time.sleep(2)
 dir = ("livestreams")
